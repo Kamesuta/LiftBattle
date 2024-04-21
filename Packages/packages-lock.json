@@ -9,6 +9,15 @@
       },
       "hash": "5c44e80806076a45e9d977ba10ff1ba6ba3110e4"
     },
+    "com.firstgeargames.fishnet.bayou": {
+      "version": "https://github.com/Kamesuta/Bayou.git?path=FishNet/Plugins/Bayou",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.firstgeargames.fishnet": "4.1.0"
+      },
+      "hash": "ba1b8c1328b1e7a31a13997e43decea45c1c298d"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,

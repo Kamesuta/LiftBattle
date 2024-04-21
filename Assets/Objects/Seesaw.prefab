@@ -223,7 +223,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 7073164365547401484}
   _networkObjectCache: {fileID: 7073164365547401484}
   springStrength: 215.1
-  damperStrength: 1.72
+  damperStrength: 2.72
 --- !u!50 &9079563568016516904
 Rigidbody2D:
   serializedVersion: 4
