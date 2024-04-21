@@ -94,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6720366326736103723}
   - component: {fileID: 8542741725868966657}
-  - component: {fileID: 6565648866026088418}
   - component: {fileID: 7073164365547401484}
   - component: {fileID: 6032994041570835711}
   - component: {fileID: 9079563568016516904}
@@ -166,51 +165,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.2444, y: 0.4839549}
   m_EdgeRadius: 0
---- !u!114 &6565648866026088418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4735751696668073219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2836e36774ca1c4bbbee976e17b649c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _componentIndexCache: 0
-  _addedNetworkObject: {fileID: 7073164365547401484}
-  _networkObjectCache: {fileID: 7073164365547401484}
-  _componentConfiguration: 3
-  _synchronizeParent: 0
-  _packing:
-    Position: 1
-    Rotation: 1
-    Scale: 0
-  _interpolation: 2
-  _extrapolation: 2
-  _enableTeleport: 0
-  _teleportThreshold: 1
-  _scaleThreshold: 1
-  _clientAuthoritative: 0
-  _sendToOwner: 0
-  _enableNetworkLod: 1
-  _interval: 1
-  _synchronizePosition: 1
-  _positionSnapping:
-    X: 0
-    Y: 0
-    Z: 0
-  _synchronizeRotation: 1
-  _rotationSnapping:
-    X: 0
-    Y: 0
-    Z: 0
-  _synchronizeScale: 1
-  _scaleSnapping:
-    X: 0
-    Y: 0
-    Z: 0
 --- !u!114 &7073164365547401484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +181,6 @@ MonoBehaviour:
   <ComponentIndex>k__BackingField: 0
   <PredictedSpawn>k__BackingField: {fileID: 0}
   _networkBehaviours:
-  - {fileID: 6565648866026088418}
   - {fileID: 6032994041570835711}
   <SerializedRootNetworkBehaviour>k__BackingField: {fileID: 0}
   <NestedRootNetworkBehaviours>k__BackingField: []
@@ -266,11 +219,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab908feb5c64a140b8e43700a9fca49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 1
+  _componentIndexCache: 0
   _addedNetworkObject: {fileID: 7073164365547401484}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 7073164365547401484}
   springStrength: 215.1
-  damperStrength: 2.72
+  damperStrength: 1.72
 --- !u!50 &9079563568016516904
 Rigidbody2D:
   serializedVersion: 4
