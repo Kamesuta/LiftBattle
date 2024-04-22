@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3606bfdac5a4743890fc1a5ecd8f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _autoStartType: 1
+  _autoStartType: 0
   _stoppedColor: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 1}
   _changingColor: {r: 0.78431374, g: 0.6862745, b: 0, a: 1}
   _startedColor: {r: 0, g: 0.5882353, b: 0.64705884, a: 1}
@@ -346,6 +346,7 @@ GameObject:
   - component: {fileID: 5803089058670365140}
   - component: {fileID: 3091257798798145533}
   - component: {fileID: 7682563463409345901}
+  - component: {fileID: 8601607917056319089}
   - component: {fileID: 4703206754743945738}
   - component: {fileID: 7892184883797075812}
   - component: {fileID: 2956591678526532532}
@@ -484,7 +485,7 @@ MonoBehaviour:
     CertificatePassword: 
     SslProtocol: 0
   _mtu: 1023
-  _port: 7770
+  _port: 7771
   _maximumClients: 2000
   _clientAddress: localhost
 --- !u!114 &7682563463409345901
@@ -503,6 +504,19 @@ MonoBehaviour:
   _transports:
   - {fileID: 3091257798798145533}
   - {fileID: 5803089058670365140}
+--- !u!114 &8601607917056319089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5572637128404424924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f012665c9df16e64588c788e95d6e768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addresses: []
 --- !u!114 &4703206754743945738
 MonoBehaviour:
   m_ObjectHideFlags: 0

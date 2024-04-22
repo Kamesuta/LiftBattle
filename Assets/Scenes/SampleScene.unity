@@ -971,6 +971,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8601607917056319089, guid: 554426ee838cecc4c8f82ecb5d79501b, type: 3}
+      propertyPath: addresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601607917056319089, guid: 554426ee838cecc4c8f82ecb5d79501b, type: 3}
+      propertyPath: addresses.Array.data[0]
+      value: home.kamesuta.com
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601607917056319089, guid: 554426ee838cecc4c8f82ecb5d79501b, type: 3}
+      propertyPath: addresses.Array.data[1]
+      value: 192.168.1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8601607917056319089, guid: 554426ee838cecc4c8f82ecb5d79501b, type: 3}
+      propertyPath: addresses.Array.data[2]
+      value: localhost
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
